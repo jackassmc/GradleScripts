@@ -15,12 +15,12 @@ buildscript {
 	}
 
 	dependencies {
-		classpath "net.fabricmc:fabric-loom:0.8-SNAPSHOT"
+		classpath "net.fabricmc:fabric-loom:0.7-SNAPSHOT"
 	}
 }
 
-sourceCompatibility = JavaVersion.VERSION_16
-targetCompatibility = JavaVersion.VERSION_16
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 archivesBaseName = project.archive_name
 group = project.maven_group
